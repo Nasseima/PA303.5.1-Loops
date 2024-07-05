@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 public class GreatestCommonFactor {
@@ -11,16 +12,18 @@ public class GreatestCommonFactor {
         System.out.println("Integer 2 : ");
         int n2 = sc.nextInt();
 
+        int gcd = 1;
+
         for ( int i = 1; i <= n1 && i <= n2; i++) {
 
             if (n1 % i == 0 & n2 % i == 0 ) {
 
-               System.out.println("The Greatest Common Divisors is: " + i);
+                gcd = i;
 
             }
 
             }
-
+        System.out.println("The Greatest Common Divisors is: " + gcd);
         }
 
     }

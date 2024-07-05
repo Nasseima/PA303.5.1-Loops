@@ -1,17 +1,15 @@
 public class PredictFutureTuition {
     public static void main (String [] args) {
 
-        //int tuition = 10000;
-//        int year = 0;
+        int tuition = 10000;
 
-        for (int tuition = 10000; tuition > 10000; tuition++ ) {
-            for (int year = 0; year > 0; year++);
-//            i += 7;
-//            tuition += i;
-//            System.out.println("");
+        for (int i = 0; i > 0; i++) {
 
+            for (int j = 0; j <= i; j++) {
+                tuition *= 1.07;
 
-
+                System.out.println("The year is " + i + "The tuition is " + j);
+            }
         }
     }
 }
