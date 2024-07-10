@@ -7,9 +7,10 @@ public class PredictFutureTuition {
         finalTuition = tuition * 2;
 
         while (tuition < finalTuition) {
+            tuition *= 1.07;
             year++;
 
-            System.out.println("The year is " + year + "The tuition is " + tuition);
+            System.out.println("The year is " + year + " and the tuition is " + tuition);
         }
     }
 
